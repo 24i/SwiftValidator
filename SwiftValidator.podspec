@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author             = { "Jeff Potter" => "jeff.potter6@gmail.com" }
   s.social_media_url   = "http://twitter.com/jpotts18"
-  s.platform     = :ios
   s.ios.deployment_target	= '8.0'
-  s.source       = { :git => "https://github.com/jpotts18/SwiftValidator.git", :tag => "4.0.0" }
+  s.tvos.deployment_target = '8.0'
+  s.source       = { :git => "https://github.com/24i/SwiftValidator.git", :tag => "4.0.0" }
   s.source_files  = "SwiftValidator/**/*.swift"
   s.exclude_files = "Validator/AppDelegate.swift"
   s.frameworks   = ['Foundation', 'UIKit']
